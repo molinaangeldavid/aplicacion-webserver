@@ -1,0 +1,28 @@
+footer{
+
+text-align: center;
+color : #fff; 
+width: 100%; 
+padding: 20px 0;
+background-color: rgb(20, 15, 15);
+bottom: 0px;
+position: fixed;
+}
+
+.col1{
+    width: 100%;
+    text-align: center;
+   margin-left: 10%;
+   margin: 26px 0;
+   float: left;
+   background-color: coral;
+   padding: 12px 0;
+   
+}
+.col2{
+    width: 20%;
+    margin: auto;
+    clear: left;
+    border: black 6px solid ;
+
+}
