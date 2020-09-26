@@ -30,7 +30,7 @@ app.get('/', function (req, res) {    //'/' Especifica todas las peticiones que 
     }) //Express ya entiende que es un objeto y su salida sera en formato json
 
 });
-app.get('/about', function (req, res) {    //'/' Especifica todas las peticiones que entran por '/' ejecutan los callback
+app.get('/about.hbs', function (req, res) {    //'/' Especifica todas las peticiones que entran por '/' ejecutan los callback
   
     res.render('about',{
 
